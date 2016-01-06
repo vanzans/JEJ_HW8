@@ -1,0 +1,68 @@
+/* HW8 media queries*/
+
+/*body	{
+	background-color: red;
+}*/
+
+.jbay	{
+	width: 304px;
+	height:304px;
+	border: 3px solid gray;
+	border-radius: 10px;
+	background-image: url("../_images/jbay.png");
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+	.jbay	{
+			width: 200px;
+			height: 200px;
+			border: 2px solid gray;
+			border-radius: 5px;
+			background-image: url("../_images/jbayMedium.png");
+			float: left;
+			margin-top: 5px;
+			margin-left: 5px;
+		}
+
+}
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+	.jbay	{
+			width: 100px;
+			height: 100px;
+			border: 1px solid gray;
+			border-radius: 2px;
+			background-image: url("../_images/jbaySmall.png");
+			float: left;
+			margin-top: 2px;
+			margin-left: 2px;
+		}
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+©
